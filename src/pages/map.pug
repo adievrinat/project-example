@@ -1,0 +1,12 @@
+extends ../template/layout
+include ../components/map/mixin
+
+
+block head
+    - var pageTitle = 'Карта';
+
+block content
+    .container
+        +map
+
+

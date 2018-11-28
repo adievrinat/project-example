@@ -2698,6 +2698,8 @@ __webpack_require__(9);
 
 __webpack_require__(11);
 
+__webpack_require__(12);
+
 /***/ }),
 /* 4 */
 /***/ (function(module, exports, __webpack_require__) {
@@ -15648,6 +15650,17 @@ module.exports = function (module) {
 
 "use strict";
 
+
+/***/ }),
+/* 12 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+$(function () {
+   $('.b-map').each(function () {});
+});
 
 /***/ })
 /******/ ]);

@@ -2,7 +2,7 @@
 <html lang="ru">
 
 <head>
-    <title>template</title>
+    <title>Шапка</title>
     <meta name="description" content="">
     <meta name="keywords" content="">
     <meta charset="utf-8">
@@ -16,30 +16,18 @@
     <meta name="format-detection" content="address=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <link href="template_styles.css" rel="stylesheet">
-    <link href="components.css" rel="stylesheet">
+    <link href="../../template_styles.css" rel="stylesheet">
+    <link href="../../components.css" rel="stylesheet">
+    <link href="../../demo-component.css" rel="stylesheet">
 </head>
 
 <body class="b-site" itemscope itemtype="http://schema.org/WebPage">
-    <div class="container" style="padding-top:20px;">
-        <div class="row">
-            <div class="col-6">
-                <h2>Страницы</h2>
-                <ul class="list-unstyled">
-                    <li><a href="ui-kits.html">ui-kits</a></li>
-                    <li><a href="map.html">карта</a></li>
-                </ul>
-            </div>
-            <div class="col-6">
-                <h2>Компоненты</h2>
-                <ul class="list-unstyled">
-                    <li><a href="components/header/view.html">Шапка</a></li>
-                </ul>
-            </div>
-        </div>
+    <div class="clearfix"><a class="demo-back float-left" href="#" onclick="window.history.back(); return false;">← В меню</a><a class="demo-copyright float-right" href="https://likee.ru" target="_blank">Сделано в Лайках</a></div>
+    <div class="demo-component">
+        <div class="b-map"></div>
     </div>
     <script src="https://yastatic.net/jquery/3.1.1/jquery.min.js"></script>
-    <script src="js/main.bundle.js"></script>
+    <script src="../../js/main.bundle.js"></script>
 </body>
 
 </html>

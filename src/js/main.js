@@ -7,3 +7,4 @@ import 'aos';
 
 
 import '../components/header/script';
+import '../components/map/script';
