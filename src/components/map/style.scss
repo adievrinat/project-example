@@ -2,4 +2,9 @@
 
 .b-map {
     background-color: $body-bg;
+    height: 500px;
+
+    .map {
+        height: 100%;
+    }
 }
